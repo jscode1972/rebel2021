@@ -1,0 +1,11 @@
+<ng-template [ngIf]="n == 0">
+<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'">{{caption}}</a>
+</ng-template>
+
+<ng-template [ngIf]="n == 1">
+    <a href="#" id="btn-edit" class="easyui-linkbutton" data-options="iconCls:'icon-edit'">{{caption}}</a>
+</ng-template>
+
+<ng-template [ngIf]="n == 2">
+    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'">{{caption}}</a>
+</ng-template>

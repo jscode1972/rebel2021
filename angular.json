@@ -24,9 +24,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/easyui/themes/black/easyui.css",
+              "src/assets/easyui/themes/icon.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/easyui/jquery.min.js",
+              "src/assets/easyui/jquery.easyui.min.js"
+            ]
           },
           "configurations": {
             "production": {

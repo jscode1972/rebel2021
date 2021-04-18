@@ -1,0 +1,21 @@
+<div class="easyui-layout" style="width:auto;height:500px;">
+    <!--  如果站台常常編譯失敗, 開啟 ez-calendar 存擋, 重新編譯 -->
+    <div data-options="region:'north'" style="height:50px"></div>
+    <div data-options="region:'west',split:true" title="West" style="width:200px;">
+        <!-- 選單列表 begin -->
+        <div class="easyui-accordion" data-options="fit:true,border:false">
+            <div *ngFor="let m of menus" title="{{m.main}}"   style="padding:10px;">
+       sss
+            </div>
+        </div>
+        <!-- 選單列表 end -->
+    </div>
+    <div data-options="region:'center',title:'Main Title',iconCls:'icon-ok'">
+        <app-ez-center></app-ez-center>
+    </div>
+    <div data-options="region:'east',split:true" title="East" style="width:180px;"></div>
+    <div data-options="region:'south',split:true" style="height:50px;"></div>
+</div>
+
+
+

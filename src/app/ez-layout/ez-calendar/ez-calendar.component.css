@@ -1,0 +1,9 @@
+.md{
+    height:16px;
+    line-height:16px;
+    background-position:2px center;
+    text-align:right;
+    font-weight:bold;
+    padding:0 2px;
+    color:red;
+}
